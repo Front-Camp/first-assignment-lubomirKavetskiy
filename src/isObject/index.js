@@ -7,8 +7,6 @@
  * isObject([]);   // false
  * isObject(null); // false
  */
-const isObject = data => {
-  /* your logic here...*/
-};
+const isObject = data => (data && typeof data === 'object' && data.constructor === Object) ? true : false;
 
 export default isObject;

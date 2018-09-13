@@ -7,8 +7,6 @@
  * turnMeBaby('hello');     // 'olleh'
  * turnMeBaby('Some text'); // 'txet emoS'
  */
-const turnMeBaby = str => {
-  /* your logic here...*/
-};
+const turnMeBaby = str => str.split('').reverse().join('');
 
 export default turnMeBaby;

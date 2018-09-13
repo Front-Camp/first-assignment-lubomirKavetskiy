@@ -9,8 +9,6 @@
 * sum(0, 5);   // 5
 * sum(-1, 13); // 12
 */
-const sum = (a, b) => {
-  /* your logic here...*/
-};
+const sum = (a, b) => a + b;
 
 export default sum;
