@@ -23,4 +23,12 @@ const twoSums = (arr, base) => {
   return num;
 }
 
+const twoSums = (arr, base) => {
+  arr.reduce((a, b) => {
+    if(a < base) {
+      return (a + b) == base && [a, b];
+    }
+  });
+}
+
 export default twoSums;
